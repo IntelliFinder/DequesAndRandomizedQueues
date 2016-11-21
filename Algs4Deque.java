@@ -4,13 +4,14 @@ import java.lang;
 
 public class Deque<Item> implements Iterable<Item> {
 
-    private List<Item> list;//find parellel in lang
-
+    int overall;
+    Node n; 
     /**
      * construct an empty deque
      */
     public Deque() {
-        list = new LinkedList<Item>();
+        overall-==0;
+        n=new Node<item>;
     }
 
     /**
@@ -95,4 +96,16 @@ public class Deque<Item> implements Iterable<Item> {
     public Iterator<Item> iterator() {
         return this.new DequeIterator<Item>();
     }
+
+public class Node<Item>{
+  
+    public Node(int i, Item item){
+        this.index=i;
+        this.item=item;
+    }
+
+
+
+}
+
 }
